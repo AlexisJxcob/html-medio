@@ -1,0 +1,17 @@
+p { 
+    color: red;
+    font-family: "Jacob", sans-serif; /* define la familia de fuentes: serif, sans-serif, monospace, cursive, fantasy */
+    font-size: 16px;
+    font-weight: bold; /* grosor normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+    font-style: italic; /* Cursiva normal, italic, oblique */
+    text-align: justify; /* define donde empieza a escribir: left, right, center, justify */
+    text-decoration: underline; /* none, underline, overline, line-through */
+    line-height: 1.5; /* define el espacio entre líneas */
+    letter-spacing: 2px; /* define el espacio entre letras */
+    text-transform: uppercase; /* none, capitalize, uppercase, lowercase */
+    /* text-shadow: 2px 2px 4px #000000;  sombra del texto: horizontal, vertical, blur, color */
+}
+
+h1{
+    text-align: center;
+}

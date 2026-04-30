@@ -1,0 +1,8 @@
+.faltante { 
+    color: red;
+} /* .faltante es el nombre de la clase que se ha asignado al elemento de la lista "Masa de pizza" en el archivo principal */
+
+#ingrediente-secreto {
+    font-weight: bold;
+    color: green;
+} /* #ingrediente-secreto es el ID que se ha asignado al elemento de la lista "Queso mozzarella" en el archivo principal */

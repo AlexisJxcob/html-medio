@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!--esto es una declaración de tipo de documento, que le dice al navegador que tipo de documento se está utilizando. En este caso, es un documento HTML5.-->
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Tipos de formularios</h1>
+    <form> <!-- esto es una etiqueta de formulario, que se utiliza para crear un formulario en HTML. Dentro de esta etiqueta, se pueden incluir diferentes elementos de formulario, como campos de texto, botones, etc. -->
+        <input type="text"> <!-- esto es un campo de texto, que permite al usuario ingresar texto. El atributo "type" se establece en "text" para indicar que es un campo de texto. -->
+        <input type="color"> <!-- esto es un campo de selección de color, que permite al usuario seleccionar un color. El atributo "type" se establece en "color" para indicar que es un campo de selección de color. -->
+        <input type="date"> <!-- esto es un campo de selección de fecha, que permite al usuario seleccionar una fecha. El atributo "type" se establece en "date" para indicar que es un campo de selección de fecha. -->
+        <input type="email"> <!-- esto es un campo de correo electrónico, que permite al usuario ingresar una dirección de correo electrónico. El atributo "type" se establece en "email" para indicar que es un campo de correo electrónico. -->
+        <input type="number"> <!-- esto es un campo de número, que permite al usuario ingresar un número. El atributo "type" se establece en "number" para indicar que es un campo de número. -->
+        <input type="password"> <!-- esto es un campo de contraseña, que permite al usuario ingresar una contraseña. El atributo "type" se establece en "password" para indicar que es un campo de contraseña. -->
+        <input type="submit"> <!-- esto es un botón de envío, que permite al usuario enviar el formulario. El atributo "type" se establece en "submit" para indicar que es un botón de envío. -->
+        <input type="reset"> <!-- esto es un botón de reinicio, que permite al usuario restablecer los valores del formulario a sus valores predeterminados. El atributo "type" se establece en "reset" para indicar que es un botón de reinicio. -->
+        <input type="file"> <!-- esto es un campo de selección de archivo, que permite al usuario seleccionar un archivo para cargar. El atributo "type" se establece en "file" para indicar que es un campo de selección de archivo. -->
+        <input type="hidden"> <!-- esto es un campo oculto, que no se muestra al usuario pero puede contener información que se envía con el formulario. El atributo "type" se establece en "hidden" para indicar que es un campo oculto. -->   
+        <input type="image" src="submit.png"> <!-- esto es un botón de imagen, que permite al usuario enviar el formulario utilizando una imagen como botón. El atributo "type" se establece en "image" para indicar que es un botón de imagen, y el atributo "src" se utiliza para especificar la ruta de la imagen que se utilizará como botón. -->
+        <input type="checkbox"> <!-- esto es un campo de casilla de verificación, que permite al usuario seleccionar una o más opciones. El atributo "type" se establece en "checkbox" para indicar que es un campo de casilla de verificación. -->
+        <input type="radio"> <!-- esto es un campo de botón de opción, que permite al usuario seleccionar una opción de un conjunto de opciones. El atributo "type" se establece en "radio" para indicar que es un campo de botón de opción. -->
+        <input type="range"> <!-- esto es un campo de rango, que permite al usuario seleccionar un valor dentro de un rango. El atributo "type" se establece en "range" para indicar que es un campo de rango. -->
+        <input type="search"> <!-- esto es un campo de búsqueda, que permite al usuario ingresar una consulta de búsqueda. El atributo "type" se establece en "search" para indicar que es un campo de búsqueda. -->
+        <input type="tel"> <!-- esto es un campo de teléfono, que permite al usuario ingresar un número de teléfono. El atributo "type" se establece en "tel" para indicar que es un campo de teléfono. -->
+        <input type="url"> <!-- esto es un campo de URL, que permite al usuario ingresar una dirección URL. El atributo "type" se establece en "url" para indicar que es un campo de URL. -->
+        <input type="week"> <!-- esto es un campo de selección de semana, que permite al usuario seleccionar una semana específica. El atributo "type" se establece en "week" para indicar que es un campo de selección de semana. -->
+        <input type="month"> <!-- esto es un campo de selección de mes, que permite al usuario seleccionar un mes específico. El atributo "type" se establece en "month" para indicar que es un campo de selección de mes. -->
+        <input type="datetime-local"> <!-- esto es un campo de selección de fecha y hora local, que permite al usuario seleccionar una fecha y hora específica. El atributo "type" se establece en "datetime-local" para indicar que es un campo de selección de fecha y hora local. -->
+        <input type="datetime"> <!-- esto es un campo de selección de fecha y hora, que permite al usuario seleccionar una fecha y hora específica. El atributo "type" se establece en "datetime" para indicar que es un campo de selección de fecha y hora. -->
+    </form>
+
+    <form>
+        <h2>ejemplos de formularios con atributos</h2>
+        <input type="text" name="username"> <!-- esto es un campo de texto con un atributo "name" que se establece en "username". El atributo "name" se utiliza para identificar el campo cuando se envía el formulario. -->
+        <input type="password" required> <!-- esto es un campo de contraseña con un atributo "required". El atributo "required" se utiliza para indicar que el campo es obligatorio y debe ser completado antes de enviar el formulario. -->
+        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"> <!-- esto es un campo de correo electrónico con un atributo "pattern". El atributo "pattern" se utiliza para especificar una expresión regular que el valor del campo debe cumplir para ser considerado válido. En este caso, la expresión regular verifica que el valor sea una dirección de correo electrónico válida. -->
+        <input type="text" placeholder="Ej. Jacob"> <!-- esto es un campo de texto con un atributo "placeholder". El atributo "placeholder" se utiliza para mostrar un texto de ejemplo dentro del campo cuando está vacío, lo que puede ayudar al usuario a entender qué tipo de información se espera que ingrese. En este caso, el texto de ejemplo es "Ej. Jacob". -->
+    </form>
+</body>
+</html>

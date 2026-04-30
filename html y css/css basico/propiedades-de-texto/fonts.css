@@ -1,0 +1,5 @@
+@font-face { /* Define una fuente personalizada llamada "Montserrat" y especifica la ubicación del archivo de fuente */
+    font-family: "Jacob"; /* El nombre que se usará para referenciar esta fuente en el resto del CSS */
+    src: url("fonts/Montserrat-Regular.ttf") format("truetype"); /* La ruta del archivo de fuente puede variar según la estructura de tu proyecto */
+    font-size: 900; /* Define el peso de la fuente, en este caso, 900 es un peso muy grueso */
+}

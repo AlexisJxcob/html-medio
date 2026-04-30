@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Sizing</title>
+    <link rel="stylesheet" href="style_box.css">
+</head>
+
+<body>
+    <div class="box box-default"></div> <!--div es un elemento de bloque, por lo que por defecto el box-sizing es content-box, lo que significa que el ancho y alto de la caja se calculan solo con el contenido, sin incluir el padding ni el borde. En este caso, la caja tendrá un ancho y alto de 200px, pero si se le agrega padding o borde, el tamaño total de la caja aumentará. -->
+    <div class="box box-new"></div>  <!--en este caso div box-new no tiene ninguna propiedad de box-sizing, por lo que se comporta igual que box-default y el tamaño total de la caja aumentará si se le agrega padding o borde. -->
+</body>
+</html>

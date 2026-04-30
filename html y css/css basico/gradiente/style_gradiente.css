@@ -1,0 +1,34 @@
+body{
+    background-color: red;
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(transparent, #000a);
+    margin: 0;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid white;
+}
+
+h1{
+    padding: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* margin: 0; /*Con esto se centra el elemento en la página, tanto horizontal como verticalmente. El valor de auto hace que el navegador calcule automáticamente el margen necesario para centrar el elemento.
+    background-color: red;
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(transparent, #009);/*Aqui se coloca el tipo de degradado, en este caso es lineal, seguido de los colores que se quieren usar para el degradado
+    margin: auto;
+    width: 100%; /*Con esto se hace que el degradado ocupe todo el ancho del contenedor padre, en este caso el body, que es el contenedor principal de la página. Si se quisiera un degradado más pequeño, se podría especificar un ancho fijo en lugar de usar el 100%
+    border-radius: 7px; Con esto se le da un borde redondeado al degradado, lo que puede hacer que se vea más suave y estéticamente agradable. El valor de 5px es solo un ejemplo, se puede ajustar según el diseño deseado.
+    margin-top: 200px; /*Con esto se agrega un margen superior al degradado, lo que puede ayudar a separarlo del contenido que pueda haber encima de él. El valor de 200px es solo un ejemplo, se puede ajustar según el diseño deseado.
+    border-top: 3px solid #48e; /*Con esto se agrega un borde superior al degradado, lo que puede ayudar a definir mejor el inicio del degradado. El valor de 3px es solo un ejemplo, se puede ajustar según el diseño deseado, y el color #48e es el mismo que se usa en el degradado para mantener la coherencia visual.*/   /*

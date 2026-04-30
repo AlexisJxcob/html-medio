@@ -1,0 +1,31 @@
+body{
+    background-color: #48e;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.box{
+    margin: 0;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    /*background-color: #f8f; esto establece un color de fondo para la caja. */
+    /*background-size: cover; esto hace que la imagen de fondo cubra toda la caja, ajustándose a su tamaño sin distorsionarse. */
+    /*background-position: center; /* esto centra la imagen de fondo dentro de la caja, asegurando que se muestre la parte más importante de la imagen. */
+    /*background-repeat: no-repeat;/* esto evita que la imagen de fondo se repita si el tamaño de la caja es mayor que el tamaño de la imagen. */
+    /*background-attachment: ;esto hace que la imagen de fondo permanezca fija en su posición mientras se desplaza el contenido de la página. */
+    background: url(https://elcomercio.pe/resizer/v2/454C6KENMJHZBPAPNZ2CNA6LOA.jpg?auth=cd7faadd54c929fe59a3716934215452eb0414358d019155046b1f66ccea401e&width=2400&height=1620&quality=75&smart=true) top / cover fixed;/* esta es una forma abreviada de escribir las propiedades anteriores. */
+}
+
+.opacidad{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); /* el último valor (0.5) representa la opacidad, donde 0 es completamente transparente y 1 es completamente opaco. */
+}
+
+h1{
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}

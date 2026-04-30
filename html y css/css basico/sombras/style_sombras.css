@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: #e2e2e2;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #000a; /*Con esto se agrega una sombra al elemento, lo que puede ayudar a darle profundidad y hacer que se destaque más en la página. El valor de 10px para el desplazamiento horizontal y vertical, y 20px para el desenfoque, son solo ejemplos, se pueden ajustar según el diseño deseado. El color #000a es un color negro con una opacidad del 10%, lo que hace que la sombra sea sutil y no demasiado dominante en el diseño.*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 0 0 12px #f88;
+    color: #444;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    text-shadow: 0 1px 15px #f88;
+    color: #444;
+    list-style: armenian;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+}
+
+img{
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+}

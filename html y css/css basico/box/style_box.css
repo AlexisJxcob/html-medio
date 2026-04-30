@@ -1,0 +1,22 @@
+body{
+    margin: 0,
+}
+
+.box{
+    width: 100px; /* el ancho del elemento */
+    height: 100px; /* el alto del elemento */
+    background: #48e; /* el color de fondo del elemento */
+    margin: 10px; /* el espacio entre el borde del elemento y los elementos adyacentes */
+}
+
+.box-default{
+    padding: 25px; /* el espacio entre el contenido del elemento y su borde */
+    border: 10px solid black; /* el borde del elemento, con un grosor de 10px, un estilo sólido y un color negro */
+}
+
+.box-new{
+    box-sizing: border-box; /* esto hace que el padding y el border se incluyan dentro del tamaño total del elemento */
+    padding: 25px;
+    border: 10px solid black;
+}
+
